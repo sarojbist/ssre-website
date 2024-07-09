@@ -1,0 +1,494 @@
+/* App.css */
+.App {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  .secondary-text {
+    font-size: 18px;
+    color: rgb(119, 114, 114);
+  }
+  
+  /* Home hero CSS */
+  .hero-img {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWmkf3uYl7HTi_gmP_Q1n67AoXsA5YzzEgAA&s"); */
+    background-size: cover;
+    background-color: #2c3847;
+    background-position: center;
+    width: 100%;
+  }
+  
+  .home-hero {
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-flex-column-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .heading-one {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 6px 6px);
+  }
+  
+  .heading-two {
+    font-size: 30px;
+    font-weight: 600;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 6px 6px);
+  }
+  
+  .btn-trans {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    outline: none;
+    width: 160px;
+    text-align: center;
+    border-radius: 10px; /* Apply consistent border radius */
+  }
+  
+  .btn-trans:hover {
+    background-color: #0d6efd;
+    border: none; /* Remove border on hover */
+  }
+  .rounded-start {
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+  }
+
+  .none-border {
+    border-top-left-radius: 0rem !important;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+  }
+  .rounded-end {
+    border-top-left-radius: 0rem !important;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+  }
+  .search-bar {
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  
+  .search-bar input {
+    width: 40%;
+    border-radius: 0; /* Ensure no other conflicting styles */
+  }
+/* home hero css ending */
+
+/* home properties starting */
+.home-properties-main-div {
+    margin-bottom: 50px;
+  }
+  .home-p-heading {
+    color: black;
+  }
+  
+  .home-properties {
+    width: 15rem;
+    position: relative;
+    margin: auto;
+  }
+  /* Increase the size of the dots */
+  .slick-dots li button:before {
+    font-size: 40px; /* Increase this value to make the dots bigger */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: rgb(0, 0, 0); /* Change the color of the active dot */
+  }
+  /* card tops  */
+  .card-top {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .card-shape {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px 8px;
+  }
+  /* Medium screens (tablets) */
+  @media (min-width: 600px) and (max-width: 992px) {
+    .home-properties {
+      width: 18rem;
+    }
+  }
+  /* Mobiles */
+  @media (min-width: 350px) and (max-width: 600px) {
+    .home-properties {
+      width: 18rem;
+    }
+  }
+  
+/* home properties ending */
+
+
+/* services card section */
+.services-font-size {
+    font-size: 40px;
+    padding-top: 10px;
+    color: black;
+  }
+  .services-start {
+    color: rgb(31, 177, 225);
+  }
+  .blue-bg {
+    background-color: rgb(211, 235, 227);
+  }
+  
+  .services-card {
+    padding: 0;
+    width: 16rem;
+  }
+  .single-card {
+    width: 16rem;
+  }
+  .services-card .card-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .all-cards {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    /* gap: 10px; */
+  }
+  
+  .custom-bold {
+    font-weight: 600;
+  }
+  
+  /* tab */
+  @media (max-width: 1100px) and (min-width: 600px) {
+    .services-card {
+      width: 11rem;
+    }
+    .services-font-size {
+      font-size: 30px;
+      
+    }
+    .custom-bold {
+      font-size: 16px;
+    }
+  }
+  
+  /* mobiles */
+  @media (max-width: 576px) {
+    .services-font-size {
+      font-size: 20px;
+    }
+    .services-card {
+      width: 12rem;
+    }
+  }
+  
+/* services card ending */
+
+
+/* home client css */
+.slider-image {
+    width: 150px;
+    padding: 10px;
+  }
+  .slider-image img {
+    width: 100%;
+  }
+  .home-client {
+    margin-top: 20px;
+  }
+  .slick-dots li button:before {
+    font-size: 40px; /* Increase this value to make the dots bigger */
+  }
+  .home-client-head {
+    color: black;
+  }
+  /* home client ending  */
+
+  /* home testinomials section */
+  .testimonial {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .t-backside {
+    background-color: rgb(78, 193, 239);
+    border-radius: 15px;
+    padding-top: 10px;
+    width: 15rem;
+    height: 100px;
+  }
+  
+  .t-frontside {
+    background-color: white;
+    border-radius: 20px; /* Match the border radius */
+    z-index: 1; /* Ensure the content is above the pseudo-element */
+    border: 0.5px solid rgb(141, 131, 131);
+    padding: 0px 20px 10px;
+    width: 15rem;
+    height: 600px;
+    color: black;
+  }
+  .t-frontside icon {
+    font-size: 120px;
+  }
+  .slick-dots li button:before {
+    font-size: 40px; /* Increase this value to make the dots bigger */
+  }
+  
+  
+  /* home testinomials ending */
+
+
+
+  /* Footer component */
+  .my-footer {
+    color: white;
+  }
+  .footer-bg {
+    background-color: rgb(12, 10, 10);
+  }
+  .img-logo {
+    width: 100px;
+  }
+  .footer-first-icons {
+    gap: 5px;
+  }
+  /*Footer part ending  */
+
+
+  /* About US Section start */
+  .about-title {
+    padding: 3rem; /* Default padding for larger screens */
+  }
+  .about-start,
+  .about-welcome {
+    width: 100vw;
+    font-weight: 600;
+    color: rgb(31, 177, 225);
+  }
+  .about-welcome {
+    color: black;
+  }
+  .about-image {
+    width: 100%;
+    height: 450px;
+    box-shadow: 0px 10px 10px 0px rgb(40, 63, 71);
+  }
+  .about-icons {
+    font-size: 120px;
+  }
+  .icon-paddings {
+    box-sizing: border-box;
+  }
+  .card-margin {
+    padding-top: 0px;
+  }
+  .card-same-height {
+    min-height: 900px;
+  }
+  .card-section .card:hover {
+    box-shadow: 2px 12px 12px 2px rgb(40, 63, 71);
+  }
+  .card-section {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  /* adding responsiveness for mobile */
+  @media (max-width: 768px) {
+    .about-title {
+      padding: 2rem;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about-title {
+      padding: 1rem;
+    }
+  }
+  
+  /* About US Section ending */
+
+
+  /* services page */
+  .services-font-size {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .services-start {
+    color: rgb(31, 177, 225);
+  }
+  .blue-bg {
+    background-color: rgb(211, 235, 227);
+  }
+  
+  .services-card {
+    padding: 0;
+    width: 16rem;
+  }
+  .single-card {
+    width: 16rem;
+  }
+  .services-card .card-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .all-cards {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    /* gap: 10px; */
+  }
+  
+  .custom-bold {
+    font-weight: 600;
+  }
+  
+  /* tab */
+  @media (max-width: 1100px) and (min-width: 600px) {
+    .services-card {
+      width: 11rem;
+    }
+    .services-font-size {
+      font-size: 30px;
+    }
+    .custom-bold {
+      font-size: 16px;
+    }
+  }
+  
+  /* mobiles */
+  @media (max-width: 576px) {
+    .services-font-size {
+      font-size: 20px;
+    }
+    .services-card {
+      width: 12rem;
+    }
+  }
+  /*services page ending  */
+
+  /* properties page css */
+ 
+  .prop-card-left {
+    /* width: 15rem
+    height: 20rem; */
+  }
+  
+  .prop-card-img {
+    width: 100%;
+    height: auto;
+    max-width: 16rem;
+    max-height: 22rem;
+  }
+  
+  .prop-middle {
+    padding: 0px 20vw;
+  }
+  
+  .prop-card-right {
+    width: 100%;
+    height: auto;
+  }
+  .fix-btn {
+    width: 160px;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+    justify-content: space-around; /* corrected property value */
+  }
+  
+  /* tab */
+  @media (min-width: 650px) and (max-width: 1024px) {
+    .prop-middle {
+      padding: 0px 5vw;
+    }
+  
+    .prop-card-img {
+      width: 100%;
+      height: auto;
+      max-width: 14rem;
+      max-height: 18rem;
+    }
+  
+    .prop-card-right {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 650px) and (min-width: 200px) {
+    .prop-card-img {
+      width: 90vw;
+      height: auto;
+      max-height: 20rem;
+      margin: auto;
+    }
+  
+    .prop-middle {
+      padding: 0px;
+    }
+  }
+  
+  
+  /* properties page ending */
+
+  /* contact us page */
+  .contact-start {
+    color: rgb(31, 177, 225);
+    margin-bottom: 20px;
+  }
+  .contact-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .icon-size {
+    font-size: 30px;
+  }
+  .shiv-style {
+    text-transform: uppercase;
+  }
+  .contact-left {
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .left-texts p {
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .show-error {
+    text-align: left;
+    color: red;
+    font-size: 16px;
+  }
+  .input-error {
+    border-color: red;
+  }
+  
+  @media (min-width: 1200px) {
+    .contact-left {
+      padding-left: 130px;
+    }
+    .contact-right {
+      padding-right: 160px;
+    }
+  }
+  
+  /* contact us ending */

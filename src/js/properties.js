@@ -1,0 +1,68 @@
+const Properties = [
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+    {
+      name: "Home 28",
+      img: "https://www.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg.transform/845x440/image.jpg",
+      address: "Andheri East",
+      area: "1956 sq ft",
+      type: "Residencial",
+      id: "SSR 30",
+    },
+  ];
+  export default Properties;
+  
